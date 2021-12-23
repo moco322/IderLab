@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lab12.2</title>
+    <script type="text/javascript">
+
+      function calculatec (time){
+
+     if(time<=3)
+     {
+        return time= 5000;
+     }
+       if(time>3)
+                          {
+                           time = time - 3;
+                           time=time * 1000 + 5000;
+                           if(time<23000)
+                           {
+                            return time;
+                           }
+                           else
+                           {
+                            alert('error');
+                           }
+         }
+   }
+    
+      var time=window.prompt("tsag");
+      time=parseInt(time);
+      document.writeln("tulbur:" +calculatec(time));
+
+
+  </script>
+</head>
+<body>
+</body>
+</html>

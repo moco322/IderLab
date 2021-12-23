@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lab12.10</title>
+    <script type="text/javascript">
+
+      function qualitypoints(dun){
+       if(dun>=90)
+       {
+        return 'A'
+       }
+       if(dun>=80)
+       {
+        return 'B'
+       }
+       if(dun>=70)
+       {
+        return 'C'
+       }
+       if(dun>=60)
+       {
+        return 'D'
+       }
+       if(dun<60)
+       {
+        return 'F'
+       }
+   }
+    
+      var dun=window.prompt("dun");      
+
+      document.writeln("dun " +qualitypoints(dun));
+
+
+  </script>
+</head>
+<body>
+</body>
+</html>  
